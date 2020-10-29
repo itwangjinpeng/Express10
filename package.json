@@ -1,0 +1,25 @@
+{
+  "name": "express10",
+  "version": "1.0.0",
+  "description": "表单提交数据库",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itwangjinpeng/Express10.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itwangjinpeng/Express10/issues"
+  },
+  "homepage": "https://github.com/itwangjinpeng/Express10#readme"
+}
