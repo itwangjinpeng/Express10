@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: green;
+        }
+
+        #main {
+            background-color: yellow;
+            height: 500px;
+            width: 800px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -400px;
+            margin-top: -250px;
+        }
+
+        .tabLeft {
+            background-color: red;
+            width: 30%;
+            height: 90%;
+            position: absolute;
+            top: 5%;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+            ;
+        }
+        .menu a{
+            text-decoration: none;
+        }
+        .menu{
+            background-color: purple;
+            width: 100%;
+            height: 40px;
+            margin-top: 20px;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 5%;
+        }
+        .menu a{
+            display: block;
+            width: 100%;
+            height: 40px;
+        }
+        .menu a:active{
+            background-color: aqua;
+        }
+        .tabLeft div:first-child{
+            background-color: blue;
+            margin-top: 70px;
+        }
+        .tabRight{
+            background-color: white;
+            float: right;
+            width: 70%;
+            height: 90%;
+            position: relative;
+            top:5%;
+        }
+        .content{
+            background-color:darkgray;
+            display: none;
+        }
+        .content p{
+            text-indent: 2em;
+        }
+        .tabRight div:target {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper" id="main">
+        <div class="tabLeft">
+            <div class="menu" id="home_">
+                <a href="#home" class="">学校概况</a>
+            </div>
+            <div class="menu" id="news_">
+                <a href="#news" class="">新闻中心</a>
+            </div>
+            <div class="menu" id="department_">
+                <a href="#department" class="">机构设置</a>
+            </div>
+            <div class="menu" id="teachers_">
+                <a href="#teachers" class="">师资队伍</a>
+            </div>
+            <div class="menu" id="teaching_">
+                <a href="#teaching" class="">教育教学</a>
+            </div>
+        </div>
+        <div class="tabRight">
+            <div id="home"  class="content">
+                <p>
+                    软件工程学院现有在校生2000余人。开设本科专业4个，即：软件工程、智能控制技术、计算机应用工程、大数据技术与应用；开设了专科专业5个，即：软件技术、嵌入式技术与应用、人工智能技术服务、工业机器人技术、大数据技术与应用。软件技术专业根据市场用人需求，设置了五个专业方向，即（软件技术(Web软件设计)、软件技术(移动互联网开发技术)、软件技术(
+                </p>
+            </div>
+            <div id="news" class="content">
+                <p>
+                    2020年10月24日,实施“人才强校”战略，优化人才成长环境，创新人才工作机制。学校师资队伍的结构得到了进一步优化，数量和质量得到了进一步提高，实现了师资队伍建设“十二五”规划的目标
+                    <img src="zjl.jpg" alt="周杰伦">
+                </p>
+            </div>
+            <div id="department" class="content">
+                <p>
+                    学校自创办以来，认真贯彻落实党中央、国务院关于人才工作的一系列方针、政策，坚持“以人为本”，实施“人才强校”战略，优化人才成长环境，创新人才工作机制。学校师资队伍的结构得到了进一步优化，数量和质量得到了进一步提高，实现了师资队伍建设“十二五”规划的目
+                </p>
+            </div>
+            
+            <div id="teachers" class="content">
+                <p>
+                    学校自创办以来，认真贯彻落实党中央、国务院关于人才工作的一系列方针、政策，坚持“以人为本”，实施“人才强校”战略，优化人才成长环境，创新人才工作机制。学校师资队伍的结构得到了进一步优化，数量和质量得到了进一步提高，实现了师资队伍建设“十二五”规划的目标
+                </p>
+            </div>
+           
+            <div id="teaching" class="content">
+                <p>
+                    我校由国家软件百强企业先锋软件公司创办，始建于2003年，2018年经教育部批准在原有的基础上成功升格为职业本科院校， 2019年5月更名为江西软件职业技术大学，成为全国首批15所职业技术大学之一，也是中国第一所软件职业技术大学。 自办学以来，学校秉承“创业创新，知识管理”的校训；坚持“校企融合，产学互动”的 办学模式； 实施“三好一专，十一工程”的育人理念；将“教的都是新的，学的都是用的”贯穿于教学之中
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
